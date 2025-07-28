@@ -89,3 +89,45 @@
 # r.write('just doing practice')
 # r.close()
 
+# class
+
+# class Factory:
+#   def __init__(self, meterial, pockets):
+#     print(self)
+#     self.meterial = meterial
+#     self.p = pockets
+#     print("initilaized")
+#   def show(self):
+#     print(f"{self.p}")
+  
+# reebok = Factory("cutton",5)
+# nike = Factory("k",4)
+
+# nike.show()
+
+
+# inheritnace
+# class Factory:  #super class/ parent class
+#   a = "attribute in factory"
+#   def hello(self):
+#     print("method in factory")
+  
+
+# class FactoryAnand(Factory): #sub calss/ child class
+#   pass
+
+# obj = FactoryAnand()
+
+# obj.hello()
+
+# dender method
+# class Animal:
+#   def __init__(self, name):
+#     self.name = name
+
+#   def __str__(self):  #use as print 
+#     return f"how are you {self.name}"
+  
+# obj =Animal("lion")
+# print(obj)
+
