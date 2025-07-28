@@ -131,3 +131,37 @@
 # obj =Animal("lion")
 # print(obj)
 
+# decorater
+
+# def decorate(func):
+#   def wrapper(*args):
+#     print("first call and after fuction call")
+#     func(*args)
+#     print("after function call this call")
+#   return wrapper
+
+# @decorate
+# def hello(a,b):
+#   print(f'how are you {a+b}')
+
+# hello(1,5)
+
+
+# def inforamation(**kwargs):
+#   for i in kwargs:
+#     print(f"{i}:{kwargs[i]}")
+
+# inforamation(a=5,b=54, c="sa")
+
+
+# comprihension
+# a = {i:i**2 for i in range(1,10) if i%2==0}
+# print(a)
+
+# lambda function
+# addiotion = lambda a,b : print(f"{a+b}")
+# addiotion(2,6)
+
+# a = [1,2,6,8]
+# result = map(lambda x:x**2,a)
+# print(list(result))
